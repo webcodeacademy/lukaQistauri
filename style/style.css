@@ -1,0 +1,466 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+.navbar-inverse{
+    background-color: #000000;
+}
+.navbar-brand{
+    font-size: 34px;
+}
+.navbar-inverse .navbar-brand{
+    color: #7b01df;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: #ffffff;
+    font-size: 14px;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: #7b01df;
+    font-size: 16px;
+}
+.item{
+    height: 300px;
+    overflow: hidden;
+}
+.owl-carousel:hover{
+    cursor: pointer;
+}
+body{
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.title1, .title2, .title3, .title4, .title5, .title6, .title7, .title8, .title9{
+    text-align: center;
+    margin-top: 256px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #000000;
+    background-color: #ffffffad;
+}
+.vol1{
+    background-image: url(../img/Haikyuu.png);
+}
+.vol2{
+    background-image: url(../img/Akame\ Ga\ Kill.png);
+}
+.vol3{
+    background-image: url(../img/Code\ Geass.png);
+}
+.vol4{
+    background-image: url(../img/One\ Piece.jpg);
+}
+.vol5{
+    background-image: url(../img/naruto.jpg);
+}
+.vol6{
+    background-image: url(../img/Death\ note.jpg);
+}
+.vol7{
+    background-image: url(../img/AOT.jpg);
+}
+.vol8{
+    background-image: url(../img/Tokyo\ Revengers.jpg);
+}
+.vol9{
+    background-image: url(../img/Demon\ Slayer.jpg);
+}
+.vol1, .vol2, .vol3, .vol4, .vol5, .vol6, .vol7, .vol8, .vol9{
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.REC{
+    color: #7b01df;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 28px;
+    padding-left: 40px;
+}
+.art{
+    width: 250px;
+    height: 400px;
+    border: 3px solid #ffffff;
+    margin-left: 40px;
+    position: relative;
+    margin: 50px auto;
+}
+.image{
+    width: 244px;
+    height: 394px;
+}
+.name{
+    position: absolute;
+    left: 20%;
+    bottom: 50%;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 26px;
+    opacity: 0;
+}
+.name1{
+    position: absolute;
+    left: 3%;
+    bottom: 50%;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 26px;
+    opacity: 0;
+}
+.name2{
+    position: absolute;
+    left: 10%;
+    bottom: 50%;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 26px;
+    opacity: 0;
+}
+.sub{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #000000;
+    font-weight: bold;
+    background-color: #ffffffa8;
+}
+.eps{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #000000;
+    font-weight: bold;
+    background-color: #ffffffa8;
+}
+.hd{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #000000;
+    font-weight: bold;
+    background-color: #ffffffa8;
+}
+.art:hover{
+    border: 3px solid #7b01df;
+    cursor: pointer;
+    transform: scale(1.04);
+}
+.art:hover .image {
+    opacity: 0.3;
+  }
+.art:hover .name{
+    opacity: 1;
+}
+.art:hover .name1{
+    opacity: 1;
+}
+.art:hover .name2{
+    opacity: 1;
+}
+.allart{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.tpani{
+    height: 50px;
+    padding-top: 12px;
+    padding-left: 40px;
+    font-weight: bold;
+    color: #7b01df;
+    font-size: 30px;
+    background-color: #ffffffe3;
+    margin-top: 0;
+}
+.topanime{
+    height: 640px;
+    width: 27%;
+    background-color: #000000ee;
+    margin-left: 40px;
+}
+.topanime:hover{
+    cursor: pointer;
+}
+.st1{
+    display: flex;
+    border: 2px solid #7b01df;
+    margin-top: 3px;
+}
+.st1 img{
+    width: 110px;
+    height: 90px;
+}
+.akaa{
+    font-size: 22px;
+    color: #ffffff;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.fa-eye-icon{
+    font-size: 18px;
+    color: #7b01df;
+    padding-left: 20px;
+    padding-top: 34px;
+}
+.num{
+    font-size: 18px;
+    color: #7b01df;
+    padding-top: 34px;
+}
+.kvelaper{
+    display: flex;
+    width: 100%;
+}
+.footall{
+    width: 100%;
+    display: flex;
+    padding:100px 400px;
+    background-color: #000000ee;
+}
+.pop, .plat, .lang, .supp, .khvlick{
+    padding-right: 40px;
+}
+.poph, .plath, .langh, .supph, .khvlickh{
+    color: #7b01df;
+    font-size: 22px;
+    font-weight: bold;
+}
+.popa, .plata, .langa, .suppa, .khvlicka{
+    color: #ffffff;
+}
+.popa:hover{
+    color: #7b01df;
+    text-decoration: none;
+}
+.plata:hover{
+    color: #7b01df;
+    text-decoration: none;
+}
+.langa:hover{
+    color: #7b01df;
+    text-decoration: none;
+}
+.suppa:hover{
+    color: #7b01df;
+    text-decoration: none;
+}
+.khvlicka:hover{
+    color: #7b01df;
+    text-decoration: none;
+}
+
+/* -------------newest.html---------- */
+
+.rel{
+    color: #7b01df;
+    padding-top: 70px;
+    padding-left: 60px;
+    font-weight: bold;
+}
+.relul{
+    display: flex;
+    margin-left: 60px;
+}
+.relul li{
+    margin-right: 2px;
+    padding: 4px 60px;
+    background-color: #7b01dfc4;
+}
+.relul li a{
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.relcou{
+    border: 2px solid #ffffff;
+}
+.relall:hover{
+    cursor: pointer;
+}
+.allartnew{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    margin-right: 74px;
+    background-color: #000000ee;
+}
+.artnew{
+    width: 280px;
+    height: 400px;
+    border: 3px solid #ffffff;
+    margin-left: 40px;
+    position: relative;
+    margin: 50px auto;
+}
+.imagenew{
+    width: 274px;
+    height: 394px;
+}
+.artnew:hover{
+    border: 3px solid #7b01df;
+    cursor: pointer;
+    transform: scale(1.04);
+}
+.artnew:hover .imagenew {
+    opacity: 0.5;
+}
+.play{
+    position: absolute;
+    right: 36%;
+    bottom: 36%;
+    font-size: 70px;
+    color: #7b01df;
+    font-weight: bold;
+    opacity: 0;
+}
+.artnew:hover .play {
+    opacity: 1;
+}
+.anname{
+    padding-top: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+.artnew:hover .anname{
+    color: #8c00ff;
+}    
+
+/* ------------manga.html---------- */
+
+.allartmang{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 360px;
+    background-color: #000000ee;
+}
+.mangh{
+    color: #7b01df;
+    padding-top: 70px;
+    padding-left: 60px;
+    font-weight: bold;
+    padding-left: 360px;
+}
+.mangul{
+    display: flex;
+    margin-left: 360px;
+}
+.mangul li{
+    margin-right: 2px;
+    padding: 4px 64px;
+    background-color: #7b01dfc4;
+}
+.mangul li a{
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.mangli{
+    border: 2px solid #ffffff;
+}
+
+/* --------------news.html------------- */
+
+.allnews{
+    margin: 0 360px;
+    background-color: #000000ee;
+}
+.allstories{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.storie1{
+    width: 200px;
+    border: 3px solid #ffffff;
+}
+.nwimage{
+    width: 194px;
+    height: 180px;
+}
+.nwtext{
+    color: #ffffff;
+}
+.storie1:hover{
+    border: 3px solid #7b01df;
+    cursor: pointer;
+    transform: scale(1.04);
+}
+.mangart{
+    border: 3px solid #ffffff;
+    margin-top:  40px;
+}
+.storih{
+    color: #ffffff;
+    font-size: 36px;
+    padding-left: 8px;
+}
+.storidiv{
+    display: flex;
+    align-items: flex-start;
+}
+.storip{
+    color: #ffffff;
+    padding-left: 12px;
+    font-size: 20px;
+}
+.storip1{
+    color: #7b01df;
+    font-size: 16px;
+    padding-left: 1040px;
+}
+.storih:hover{
+    color: #7b01df;
+    cursor: pointer;
+}
+
+/* ---------popular.html--------- */
+
+.container{
+    background-color: #000000;
+}
+.popuh{
+    color: #ffffff;
+    font-size: 60px;
+}
+.popup{
+    color: #ffffff;
+    font-size: 30px;
+}
+.table{
+    background-color: #000000;
+    border: 2px solid #7b01df
+}
+.table th{
+    color: #ffffff;
+    font-size: 24px;
+}
+.tdrank{
+    color: #ffffff;
+    font-size: 70px;
+}
+.tdimage{
+    width: 140px;
+    height: 140px;
+}
+.tdtitle{
+    color: #7b01df;
+    font-size: 30px;
+}
+.tdimdb{
+    color: #ffffff;
+    font-size: 30px;
+}
+.tr{
+    border:  2px solid #7b01df;
+}
